@@ -21,34 +21,80 @@ import {
   FaBolt,
   FaShieldAlt,
   FaUserMd,
-  FaConciergeBell
+  FaConciergeBell,
+  FaVideo,
+  FaFingerprint,
+  FaSmoking,
+  FaWifi,
+  FaMicrochip,
+  FaEye,
+  FaThermometerHalf,
+  FaDatabase,
+  FaMobileAlt,
+  FaRegSmile,
+  FaCreditCard,
+  FaChartLine,
+  FaGasPump,
+  FaBell,
+  FaLightbulb,
+  FaApple,
+  FaEthernet,
+  FaRegBuilding,
+  FaTools,
+  FaHeadset,
+  FaCalendarAlt,
+  FaDoorOpen,
+  FaFireExtinguisher
 } from 'react-icons/fa';
 import Link from 'next/link';
 import Carrusel from '@/app/components/Carrusel';
 import Productos from '@/app/components/Productos';
 import Contacto from '@/app/components/Contacto';
 
-// Mapeo de iconos
+// Mapeo de iconos - usando clases de Tailwind que respetan global.css
 const getIconByName = (iconName) => {
   const icons = {
-    'mdi:snowflake': <FaSnowflake className="w-5 h-5 sm:w-6 sm:h-6" />,
-    'mdi:snowflake-thermometer': <FaSnowflake className="w-5 h-5 sm:w-6 sm:h-6" />,
-    'mdi:clipboard-check': <FaClipboardCheck className="w-5 h-5 sm:w-6 sm:h-6" />,
-    'mdi:box': <FaBox className="w-5 h-5 sm:w-6 sm:h-6" />,
-    'mdi:home': <FaHome className="w-5 h-5 sm:w-6 sm:h-6" />,
-    'mdi:hospital': <FaHospital className="w-5 h-5 sm:w-6 sm:h-6" />,
-    'mdi:pill': <FaPills className="w-5 h-5 sm:w-6 sm:h-6" />,
-    'mdi:food': <FaUtensils className="w-5 h-5 sm:w-6 sm:h-6" />,
-    'mdi:briefcase': <FaBriefcase className="w-5 h-5 sm:w-6 sm:h-6" />,
-    'mdi:store': <FaStore className="w-5 h-5 sm:w-6 sm:h-6" />,
-    'mdi:chef-hat': <FaConciergeBell className="w-5 h-5 sm:w-6 sm:h-6" />,
-    'mdi:certificate': <FaCertificate className="w-5 h-5 sm:w-6 sm:h-6" />,
-    'mdi:lightning-bolt': <FaBolt className="w-5 h-5 sm:w-6 sm:h-6" />,
-    'mdi:shield-check': <FaShieldAlt className="w-5 h-5 sm:w-6 sm:h-6" />,
-    'mdi:check': <FaClipboardCheck className="w-5 h-5 sm:w-6 sm:h-6" />,
-    'mdi:information': <FaClipboardCheck className="w-5 h-5 sm:w-6 sm:h-6" />
+    'mdi:snowflake': <FaSnowflake className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />,
+    'mdi:snowflake-thermometer': <FaSnowflake className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />,
+    'mdi:clipboard-check': <FaClipboardCheck className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />,
+    'mdi:box': <FaBox className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />,
+    'mdi:home': <FaHome className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />,
+    'mdi:hospital': <FaHospital className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />,
+    'mdi:pill': <FaPills className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />,
+    'mdi:food': <FaUtensils className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />,
+    'mdi:briefcase': <FaBriefcase className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />,
+    'mdi:store': <FaStore className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />,
+    'mdi:chef-hat': <FaConciergeBell className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />,
+    'mdi:certificate': <FaCertificate className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />,
+    'mdi:lightning-bolt': <FaBolt className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />,
+    'mdi:shield-check': <FaShieldAlt className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />,
+    'mdi:check': <FaClipboardCheck className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />,
+    'mdi:information': <FaClipboardCheck className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />,
+    'mdi:cctv': <FaVideo className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />,
+    'mdi:fingerprint': <FaFingerprint className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />,
+    'mdi:face-recognition': <FaRegSmile className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />,
+    'mdi:credit-card': <FaCreditCard className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />,
+    'mdi:monitor-dashboard': <FaChartLine className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />,
+    'mdi:smoke-detector': <FaSmoking className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />,
+    'mdi:gas-cylinder': <FaGasPump className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />,
+    'mdi:alarm-panel': <FaBell className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />,
+    'mdi:alarm-light': <FaBell className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />,
+    'mdi:amazon-alexa': <FaMicrochip className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />,
+    'mdi:apple': <FaApple className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />,
+    'mdi:ethernet-cable': <FaEthernet className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />,
+    'mdi:wifi': <FaWifi className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />,
+    'mdi:thermometer': <FaThermometerHalf className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />,
+    'mdi:database': <FaDatabase className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />,
+    'mdi:cellphone': <FaMobileAlt className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />,
+    'mdi:drawing': <FaRegBuilding className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />,
+    'mdi:hammer-wrench': <FaTools className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />,
+    'mdi:headset': <FaHeadset className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />,
+    'mdi:calendar-check': <FaCalendarAlt className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />,
+    'mdi:door-closed-lock': <FaDoorOpen className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />,
+    'mdi:fire-alert': <FaFireExtinguisher className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />,
+    'mdi:home-automation': <FaLightbulb className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />
   };
-  return icons[iconName] || <FaClipboardCheck className="w-5 h-5 sm:w-6 sm:h-6" />;
+  return icons[iconName] || <FaClipboardCheck className="w-5 h-5 sm:w-6 sm:h-6 text-primary" />;
 };
 
 const getIconForSection = (titulo) => {
@@ -288,16 +334,16 @@ const ServicioDetalle = () => {
         </section>
       )}
 
-      {/* Sección VentilacionClimatizacion */}
-      {servicioEncontrado.VentilacionClimatizacion?.servicios && (
-        <section className="py-12 sm:py-16 lg:py-24 bg-primary-900">
+      {/* Sección descripcionDetallada */}
+      {servicioEncontrado.descripcionDetallada?.servicios && (
+        <section className="py-12 sm:py-16 lg:py-24 bg-gradient-to-br from-primary-900 to-primary-800">
           <div className="container px-4 sm:px-6 mx-auto">
             <div className="text-center mb-8 sm:mb-12">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-2 sm:mb-4">
-                {servicioEncontrado.VentilacionClimatizacion.titulo}
+                {servicioEncontrado.descripcionDetallada.titulo}
               </h2>
-              <p className="text-sm sm:text-base md:text-lg text-gray-300 max-w-3xl mx-auto px-4">
-                Sistemas especializados para calidad del aire y confort ambiental
+              <p className="text-sm sm:text-base md:text-lg text-gray-200 max-w-3xl mx-auto px-4">
+                Tecnología de vanguardia para tu seguridad y bienestar
               </p>
             </div>
 
@@ -305,8 +351,8 @@ const ServicioDetalle = () => {
               <div className="relative order-2 lg:order-1">
                 <div className="relative rounded-2xl overflow-hidden shadow-2xl">
                   <img 
-                    src={servicioEncontrado.VentilacionClimatizacion.img || servicioEncontrado.img}
-                    alt={servicioEncontrado.VentilacionClimatizacion.titulo}
+                    src={servicioEncontrado.descripcionDetallada.img || servicioEncontrado.img}
+                    alt={servicioEncontrado.descripcionDetallada.titulo}
                     className="w-full h-auto object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-primary-600/20 to-transparent"></div>
@@ -314,17 +360,17 @@ const ServicioDetalle = () => {
               </div>
 
               <div className="order-1 lg:order-2">
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 mb-6 sm:mb-8">
-                  {servicioEncontrado.VentilacionClimatizacion.servicios.map((servicioVent, index) => (
-                    <div key={index} className="bg-card p-4 sm:p-5 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-border">
-                      <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-primary/10 flex items-center justify-center mb-2 sm:mb-3">
-                        {getIconByName(servicioVent.icono)}
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
+                  {servicioEncontrado.descripcionDetallada.servicios.map((item, index) => (
+                    <div key={index} className="bg-white/10 backdrop-blur-sm p-4 sm:p-5 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-white/20">
+                      <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-white/20 flex items-center justify-center mb-2 sm:mb-3">
+                        {getIconByName(item.icono)}
                       </div>
-                      <h4 className="font-semibold text-foreground mb-1 sm:mb-2 text-sm sm:text-base">
-                        {servicioVent.nombre}
+                      <h4 className="font-semibold text-white mb-1 sm:mb-2 text-sm sm:text-base">
+                        {item.nombre}
                       </h4>
-                      <p className="text-muted-foreground text-xs sm:text-sm">
-                        {servicioVent.descripcion}
+                      <p className="text-gray-200 text-xs sm:text-sm">
+                        {item.descripcion}
                       </p>
                     </div>
                   ))}
@@ -365,7 +411,7 @@ const ServicioDetalle = () => {
                         className="flex flex-col md:flex-row items-start gap-4 sm:gap-6 bg-gradient-to-br from-primary-50 to-background rounded-2xl p-6 sm:p-8 md:p-10 border border-primary-100 hover:border-primary-200 hover:shadow-lg transition-all duration-300"
                       >
                         <div className="mb-3 md:mb-0">
-                          <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl bg-primary-50 flex items-center justify-center">
+                          <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl bg-primary/10 flex items-center justify-center">
                             {getIconByName(iconName)}
                           </div>
                         </div>
@@ -410,7 +456,7 @@ const ServicioDetalle = () => {
                 Servicios Relacionados
               </h2>
               <p className="text-sm sm:text-base md:text-lg text-muted-foreground max-w-2xl mx-auto px-4">
-                Soluciones completas para todas tus necesidades de climatización
+                Soluciones completas para todas tus necesidades
               </p>
             </div>
             

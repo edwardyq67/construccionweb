@@ -1,36 +1,34 @@
 {
   "fondos": [
-    "https://pub-6fa3794a145e46dc96c10036dd66ad12.r2.dev/Servicio-de-aire-acondicionado-dom%C3%A9stico.webp",
-    "https://pub-6fa3794a145e46dc96c10036dd66ad12.r2.dev/AIRE-ACONDICIONADO-COMERCIAL-E-INDUSTRIAL.webp",
-    "https://pub-6fa3794a145e46dc96c10036dd66ad12.r2.dev/SISTEMAS-DE-CLIMATIZACI%C3%93N.webp",
-    "https://pub-6fa3794a145e46dc96c10036dd66ad12.r2.dev/C%C3%81MARAS-FRIGOR%C3%8DFICAS-Y-CUARTOS-FR%C3%8DOS.webp",
-    "https://pub-6fa3794a145e46dc96c10036dd66ad12.r2.dev/REFRIGERACI%C3%93N-COMERCIAL-E-INDUSTRIAL.webp",
-    "https://pub-6fa3794a145e46dc96c10036dd66ad12.r2.dev/AIRE-ACONDICIONADO-DOM%C3%89STICO.webp"
+    "https://img.freepik.com/foto-gratis/empleado-centro-llamadas-que-proporciona-informacion-envio-traves-navegacion-satelite-gps_482257-89024.jpg?t=st=1774385824~exp=1774389424~hmac=ad1213de0524ad9034fa201c601a9141266b4746caac26794835061c0f7d234e&w=1480",
+    "https://img.freepik.com/foto-gratis/barreras-entradas-entrada-metro_1359-533.jpg?t=st=1774385858~exp=1774389458~hmac=61135b4d24de3aa546ea93af73fee958541531ea800da0a0ae9dd256941b0369&w=1480",
+    "https://img.freepik.com/foto-gratis/hombre-esta-llegando-su-mano-empujar-estacion-mano-alarma-incendio_1150-6644.jpg?t=st=1774385888~exp=1774389488~hmac=9456df57c0cb5976d6e8bcde95270262747ebf4bb479ce3e466b750c21007941&w=1480",
+    "https://img.freepik.com/fotos-premium/sala-estar-moderna-dispositivos-integrados-hogar-inteligente_917664-166054.jpg?w=1480",
+    "http://img.freepik.com/foto-gratis/conmutador-red-cables_1137-6.jpg?t=st=1774385972~exp=1774389572~hmac=885295ca1a6d8384e7413c0ad0c57a5df6118fb9b2a8235f54731426fda8c078&w=1480"
   ],
+  "video": "https://player.vimeo.com/progressive_redirect/playback/1084466702/rendition/1080p/file.mp4?loc=external&signature=0e390ef6e607cc9fc38d2945adf7019d60751cd320fc93597163fa98cb1b4b2e",
   "titulo": [
-    "SOMOS ESPECIALISTAS EN AIRE ACONDICIONADO",
-    "AIRE ACONDICIONADO COMERCIAL E INDUSTRIAL",
-    "SISTEMAS DE CLIMATIZACIÓN",
-    "CÁMARAS FRIGORÍFICAS Y CUARTOS FRÍOS",
-    "REFRIGERACIÓN COMERCIAL E INDUSTRIAL",
-    "AIRE ACONDICIONADO DOMÉSTICO"
+    "DISEÑO DE INTERIORES",
+    "REMODELACIÓN INTEGRAL",
+    "CONSTRUCCIÓN Y OBRA CIVIL",
+    "SEÑALÉTICA Y LETREROS LUMINOSOS",
+    "ASESORÍA Y PROYECTOS LLAVE EN MANO"
   ],
   "descripcion": [
-    "",
-    "Instalación, mantenimiento y reparación de equipos residenciales para confort térmico. Trabajamos con split, inverter, ventana y portátil.",
-    "Soluciones de climatización para negocios y grandes espacios con operación continua. Atendemos split ducto, paquete, rooftop, VRF y sistemas centrales.",
-    "Diseño, instalación y mantenimiento de sistemas integrales de control térmico y ventilación. Incluye chillers, manejadoras de aire, ductos, extractores y BMS.",
-    "Implementación y servicio técnico de sistemas de conservación a temperatura controlada. Trabajamos con cámaras de congelado, refrigeración, paneles isotérmicos y unidades condensadoras.",
-    "Mantenimiento y reparación de equipos para conservación y procesos productivos. Atendemos vitrinas, exhibidoras, túneles de frío, racks, chillers y sistemas de refrigeración industrial."
+    "Creamos ambientes funcionales, modernos y personalizados para negocios y hogares. Combinamos creatividad y diseño estratégico para convertir tus ideas en espacios únicos que conectan con las personas.",
+    "Transformamos todo tipo de ambientes a través del diseño estratégico y elementos visuales de alto impacto. Proyectos de remodelación integral con acabados de primera calidad.",
+    "Ejecutamos obras civiles con los más altos estándares de calidad y seguridad. Desde cimentaciones hasta estructuras complejas, garantizando solidez y durabilidad en cada proyecto.",
+    "Fabricamos, importamos y distribuimos letreros decorativos y anuncios luminosos personalizados que refuerzan la identidad de cada espacio. Tecnología LED de última generación.",
+    "Ofrecemos un servicio integral desde el concepto hasta la entrega final. Planos, permisos, ejecución especializada y supervisión constante para que tu proyecto sea una realidad sin contratiempos."
   ],
   "botones": {
     "contacto": {
-      "texto": "CONTÁCTANOS",
+      "texto": "SOLICITA UNA COTIZACIÓN",
       "enlace": "/contacto",
       "estilo": "primary"
     },
     "servicios": {
-      "texto": "SERVICIOS",
+      "texto": "NUESTROS PROYECTOS",
       "enlace": "",
       "estilo": "secondary"
     }

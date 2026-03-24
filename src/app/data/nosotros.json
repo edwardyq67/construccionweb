@@ -1,21 +1,71 @@
 {
-  "titulo": "Sobre Nosotros",
-  "contenido": "Somos una empresa líder en el sector de aire acondicionado y ventilación mecánica especializada en instalación, mantenimiento y reparación de sistemas HVAC para el sector comercial, industrial y residencial.",
+  "titulo": "Transformamos espacios con identidad propia",
+  "contenido": "Nos especializamos en la decoración y diseño de interiores, así como en la fabricación, importación y distribución de letreros publicitarios, insumos para neón, luces LED y paneles electrónicos. Desarrollamos proyectos de decoración integral con estructuras metálicas a medida, combinando creatividad, innovación y tecnología para ofrecer soluciones funcionales, impactantes y duraderas.",
   "boton": {
     "texto": "Conoce Nuestra Historia",
     "enlace": "/historia"
   },
-  "foto": "https://pub-6fa3794a145e46dc96c10036dd66ad12.r2.dev/Foto04-casco.webp",
+  "foto": "https://images.pexels.com/photos/585419/pexels-photo-585419.jpeg",
   "logros": [
-    "Equipo de especialistas certificados",
-    "Tecnología de última generación",
-    "Soporte técnico 24/7",
-    "Certificaciones internacionales",
-    "Proyectos en todo el país"
+    "Amplio taller de producción con maquinaria especializada",
+    "Flota propia de transporte para garantizar puntualidad",
+    "Impresoras láser y plotters de corte de última generación",
+    "Proyectos de decoración integral con estructuras metálicas a medida",
+    "Mantenimiento de productos propios o de terceros"
   ],
-  "img": "https://pub-6fa3794a145e46dc96c10036dd66ad12.r2.dev/Foto04-casco.webp",
+  "img": "https://images.pexels.com/photos/585419/pexels-photo-585419.jpeg",
   "sello": {
-    "numero": "",
-    "texto": ""
-  }
+    "numero": "10+",
+    "texto": "Años de experiencia"
+  },
+  "mision": {
+    "titulo": "MISIÓN",
+    "descripcion": "Somos una empresa importadora y fabricante de productos publicitarios, buscando hacer realidad las ideas de nuestros clientes, satisfaciendo sus necesidades en el menor tiempo y al menor costo. Transformamos espacios comerciales y residenciales a través del diseño interior y la fabricación de elementos publicitarios, brindando soluciones creativas, funcionales y de calidad."
+  },
+  "vision": {
+    "titulo": "VISIÓN",
+    "descripcion": "Ser la empresa que exprese innovación y creatividad en el mundo de la publicidad y el diseño de espacios, buscando evolucionar en nuestros procesos implementando la tecnología más eficiente. Ser reconocidos por liderar el mercado con propuestas que marcan tendencia y superan las expectativas de nuestros clientes."
+  },
+  "serviciosDestacados": [
+    {
+      "titulo": "Diseño de Interiores",
+      "descripcion": "Creamos ambientes funcionales, modernos y personalizados que conectan funcionalidad, estética y marca en un solo concepto."
+    },
+    {
+      "titulo": "Letreros Publicitarios",
+      "descripcion": "Fabricación, importación y distribución de letreros decorativos y anuncios luminosos personalizados que refuerzan la identidad de cada espacio."
+    },
+    {
+      "titulo": "Iluminación LED y Neón",
+      "descripcion": "Insumos para neón, luces LED y paneles electrónicos de última generación para proyectos de alto impacto visual."
+    },
+    {
+      "titulo": "Estructuras Metálicas a Medida",
+      "descripcion": "Desarrollamos proyectos de decoración integral con estructuras metálicas personalizadas para todo tipo de espacios."
+    },
+    {
+      "titulo": "Mantenimiento Especializado",
+      "descripcion": "Mantenimiento de productos propios o de terceros, garantizando durabilidad y óptimo funcionamiento."
+    }
+  ],
+  "capacidades": {
+    "titulo": "Nuestra Capacidad Operativa",
+    "items": [
+      "Taller de producción con maquinaria especializada",
+      "Impresoras láser de alta precisión",
+      "Plotters de corte para acabados profesionales",
+      "Flota propia de transporte para distribución nacional"
+    ]
+  },
+  "valores": [
+    "Creatividad",
+    "Innovación",
+    "Calidad",
+    "Puntualidad",
+    "Tecnología"
+  ],
+  "certificaciones": [
+    "Normas técnicas de calidad",
+    "Estándares de seguridad en procesos productivos"
+  ]
 }

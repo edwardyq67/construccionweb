@@ -1,195 +1,489 @@
 {
-    "servicios": [
+  "servicios": [
+    {
+      "img": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg",
+      "titulo": "Diseño de Interiores y Desarrollo de Proyectos",
+      "contenido": "Transformamos espacios con diseño estratégico, modelado 3D y desarrollo integral de proyectos.",
+      "url": "/diseno-interiores",
+      "slug": "diseno-interiores",
+      "descripcion_larga": "Creamos ambientes funcionales, modernos y personalizados que conectan con las personas. Desarrollamos proyectos integrales de diseño de interiores para viviendas, oficinas y locales comerciales. Utilizamos herramientas de vanguardia como Blender, 3D Max y AutoCAD para visualizar cada detalle antes de la ejecución, garantizando resultados que superan expectativas.",
+      "icono": "mdi:palette",
+      "categoria": "diseño",
+      "descripcionServicio": [
         {
-            "img": "https://pub-6fa3794a145e46dc96c10036dd66ad12.r2.dev/AireAcodicionadoClimatizacion.webp",
-            "titulo": "Aire acondicionado a nivel (doméstico, comercial e industrial) y climatización",
-            "contenido": "Realizamos la instalación, mantenimiento y reparación de sistemas tipo Split, MultiSplit, Piso-Techo, Cassette, VRF/VRV y sistemas HVAC centralizados.",
-            "url": "https://pub-6fa3794a145e46dc96c10036dd66ad12.r2.dev/AireAcodicionadoClimatizacion.webp",
-            "slug": "aire-acondicionado-climatizacion",
-            "descripcion_larga": "En Teknisolutions, somos especialistas en ofrecer un servicio integral de climatización y ventilación en Lima, proporcionando la instalación de una amplia gama de equipos como Split Pared, Ducto, Cassette, VRF, Paquete (Rooftop) y Chillers, adaptados a las necesidades de viviendas, oficinas, locales comerciales e instalaciones industriales. Nuestra propuesta combina tecnología de vanguardia y equipos de alta eficiencia energética para garantizar ambientes frescos, máximo confort y ahorro operativo en cada proyecto.",
-            "icono": "mdi:snowflake",
-            "VentilacionClimatizacion": {
-                "titulo": "Ventilación y Climatización",
-                "img": "/Servicios/Ventilación y Climatización.webp",
-                "servicios": [
-                    {
-                        "nombre": "Extractores Axiales",
-                        "descripcion": "Suministramos e instalamos ventiladores axiales de placa, tubo axiales de uso industrial y minero.",
-                        "icono": "mdi:fan"
-                    },
-                    {
-                        "nombre": "Extractores Centrífugos",
-                        "descripcion": "Ofrecemos ventiladores de simple y doble aspiración, álabes hacia adelante y atrás.",
-                        "icono": "mdi:cog"
-                    },
-                    {
-                        "nombre": "Extractores Eólicos",
-                        "descripcion": "Suministramos equipos eólicos que no necesitan motor y por ende no tienen consumo eléctrico.",
-                        "icono": "mdi:wind-power"
-                    },
-                    {
-                        "nombre": "Mantenimiento",
-                        "descripcion": "Realizamos mantenimiento de equipos de ventilación, mantén tus ventiladores siempre en buenas condiciones.",
-                        "icono": "mdi:wrench"
-                    }
-                ]
+          "titulo": "Diseño de Interiores y Visualización 3D",
+          "img": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg",
+          "descripcion_corta": "Diseño estratégico de espacios con modelado 3D y renders fotorrealistas para visualizar el resultado final.",
+          "servicios": [
+            {
+              "nombre": "Modelado 3D y Renders",
+              "descripcion": "Visualización fotorrealista con Blender, 3D Max y AutoCAD para presentar el proyecto antes de la ejecución.",
+              "icono": "mdi:cube-outline"
             },
-            "DomesticoComercial": [
-                {
-                    "titulo": "Aire Acondicionado residencial",
-                    "img": "https://pub-6fa3794a145e46dc96c10036dd66ad12.r2.dev/Servicio-de-aire-acondicionado-dom%C3%A9stico.webp",
-                    "descripcion_corta": "Brindamos servicio técnico especializado para equipos de aire acondicionado en hogares, departamentos y oficinas pequeñas, con un enfoque en la seguridad, eficiencia y confort de tu familia.",
-                    "servicios": [
-                        {
-                            "nombre": "Mantenimiento Preventivo",
-                            "descripcion": "Limpieza integral de la unidad interna y externa, desinfección de filtros, revisión de presión de gas, consumo eléctrico y estado de componentes para asegurar un funcionamiento óptimo y evitar futuras averías.",
-                            "icono": "mdi:check-circle"
-                        },
-                        {
-                            "nombre": "Reparación",
-                            "descripcion": "Diagnóstico preciso de fallas como falta de enfriamiento, ruidos anormales, fugas de agua o problemas eléctricos. Reemplazamos repuestos y recargamos gas refrigerante utilizando herramientas profesionales.",
-                            "icono": "mdi:wrench"
-                        },
-                        {
-                            "nombre": "Instalación",
-                            "descripcion": "Instalamos todo tipo de equipos split y portátiles, realizando el correcto montaje, vacío del sistema, configuración y pruebas de rendimiento para garantizar un clima agradable con el menor consumo energético.",
-                            "icono": "mdi:hammer-wrench"
-                        }
-                    ],
-                    "compromiso": "Nuestro compromiso es ofrecer una atención rápida, transparente y con garantía, para que disfrutes de un ambiente fresco y saludable durante todo el año."
-                }
-            ]
-        },
-        {
-            "img": "https://pub-6fa3794a145e46dc96c10036dd66ad12.r2.dev/RefrigeracionComercialEIndustrial.webp",
-            "titulo": "Refrigeración comercial e industrial",
-            "contenido": "En Teknisolutions, nos especializamos en soluciones integrales de refrigeración industrial y comercial, diseñando e implementando cámaras frigoríficas, túneles de enfriamiento y sistemas de congelamiento de alto rendimiento.",
-            "url": "/refrigeracion-comercial-industrial",
-            "slug": "refrigeracion-comercial-industrial",
-            "descripcion_larga": "En Teknisolutions, nos especializamos en soluciones integrales de refrigeración industrial y comercial, diseñando e implementando cámaras frigoríficas, túneles de enfriamiento y sistemas de congelamiento de alto rendimiento. Gracias a nuestra tecnología de vanguardia y un equipo de ingeniería experto, optimizamos la climatización de salas de procesos y la operación de plantas de hielo, garantizando sistemas eficientes, confiables y con un control térmico riguroso para la conservación y procesamiento de sus productos.",
-            "icono": "mdi:snowflake-thermometer"
-        },
-        {
-            "img": "https://pub-6fa3794a145e46dc96c10036dd66ad12.r2.dev/Asesoramiento.webp",
-            "titulo": "Consultoría de desarrollo y ejecución de proyecto",
-            "contenido": "Diseñamos y ejecutamos proyectos integrales de climatización, ventilación y refrigeración industrial a medida.",
-            "url": "/consultoria-desarrollo-ejecucion-proyecto",
-            "slug": "consultoria-desarrollo-ejecucion-proyecto",
-            "descripcion_larga": "En Teknisolutions, diseñamos y ejecutamos proyectos integrales de climatización, ventilación y refrigeración industrial a medida. Nuestro equipo de ingenieros especializados gestiona cada etapa del proceso, desde el cálculo de redes de ductos y selección de equipos hasta la implementación final, garantizando el cumplimiento normativo, la eficiencia energética y la puntualidad en cada entrega.",
-            "icono": "mdi:clipboard-check",
-            "secciones": [
-                {
-                    "titulo": "Soluciones Especializadas por Sector",
-                    "contenido": "Desarrollamos proyectos personalizados adaptados a las exigencias críticas de diversos entornos:",
-                    "items": [
-                        {
-                            "titulo": "Sector Salud y Hospitalario",
-                            "descripcion": "Sistemas de climatización con filtrado especial y control de presión para hospitales y clínicas."
-                        },
-                        {
-                            "titulo": "Industria Farmacéutica",
-                            "descripcion": "Diseño de almacenes especializados para medicamentos, cámaras de frío con monitoreo térmico y sistemas de climatización para laboratorios bajo estrictos estándares de bioseguridad."
-                        },
-                        {
-                            "titulo": "Industria Alimentaria",
-                            "descripcion": "Diseño de cámaras frigoríficas, cuartos fríos, túneles de congelamiento y climatización de salas de procesos."
-                        },
-                        {
-                            "titulo": "Corporativo y Comercial",
-                            "descripcion": "Soluciones de aire acondicionado para oficinas, edificios y restaurantes, optimizando el confort y el consumo eléctrico."
-                        },
-                        {
-                            "titulo": "Residencial",
-                            "descripcion": "Instalaciones de alta eficiencia para hogares modernos."
-                        }
-                    ]
-                }
-            ],
-            "VentilacionClimatizacion": {
-                "titulo": "Nuestro Portafolio de Servicios",
-                "img": "https://pub-6fa3794a145e46dc96c10036dd66ad12.r2.dev/Nuestro%20Portafolio%20de%20Servicios.webp",
-                "servicios": [
-                    {
-                        "nombre": "Sistemas HVAC",
-                        "descripcion": "Instalación de equipos Split (Pared, Ducto, Cassette), sistemas VRF, unidades Paquete (Rooftop), Chillers y Fan Coils.",
-                        "icono": "mdi:air-conditioner"
-                    },
-                    {
-                        "nombre": "Ventilación y Seguridad",
-                        "descripcion": "Diseño de sistemas de ventilación mecánica, extracción de monóxido y presurización de escaleras contra incendios.",
-                        "icono": "mdi:shield-airplane"
-                    },
-                    {
-                        "nombre": "Ingeniería de Ductos",
-                        "descripcion": "Fabricación e instalación de ductos personalizados para garantizar un flujo de aire óptimo y duradero.",
-                        "icono": "mdi:pipe"
-                    },
-                    {
-                        "nombre": "Mantenimiento Especializado",
-                        "descripcion": "Planes preventivos y correctivos para asegurar el rendimiento continuo y prolongar la vida útil de sus activos.",
-                        "icono": "mdi:tools"
-                    }
-                ]
+            {
+              "nombre": "Desarrollo de Proyectos",
+              "descripcion": "Planificación integral desde el concepto hasta la ejecución, incluyendo planos, memoria descriptiva y gestión de permisos.",
+              "icono": "mdi:file-document-edit"
+            },
+            {
+              "nombre": "Asesoría Especializada",
+              "descripcion": "Consultoría en selección de materiales, mobiliario, iluminación y acabados para cada tipo de espacio.",
+              "icono": "mdi:chat-question"
             }
-        },
-        {
-            "img": "https://pub-6fa3794a145e46dc96c10036dd66ad12.r2.dev/CamaraFrigorificas.webp",
-            "titulo": "Servicio especial de cámara frigorífica",
-            "contenido": "Soluciones integrales de refrigeración industrial y comercial diseñadas para maximizar la eficiencia y confiabilidad en la conservación de productos.",
-            "url": "/servicio-especial-camara-frigorifica",
-            "slug": "servicio-especial-camara-frigorifica",
-            "descripcion_larga": "En Teknisolutions, nos especializamos en ofrecer soluciones integrales de refrigeración industrial y comercial, diseñadas para maximizar la eficiencia y confiabilidad en la conservación de sus productos. Proporcionamos un servicio completo que abarca desde el diseño técnico hasta la instalación de infraestructura de alta precisión.",
-            "icono": "mdi:clipboard-check",
-            "secciones": [
-                {
-                    "titulo": "Soluciones Especializadas por Sector",
-                    "contenido": "Colaboramos estrechamente con contratistas y usuarios finales en diversos sectores estratégicos, adaptándonos a las exigencias de cada industria:",
-                    "items": [
-                        {
-                            "titulo": "Retail y Horeca",
-                            "descripcion": "Sistemas especializados para la conservación de flores y productos perecederos."
-                        },
-                        {
-                            "titulo": "Procesamiento",
-                            "descripcion": "Equipamiento para plantas industriales de alimentos y centros de distribución."
-                        },
-                        {
-                            "titulo": "Industria Farmacéutica",
-                            "descripcion": "Diseño de almacenes especializados para medicamentos, cámaras de frío con monitoreo térmico y sistemas de climatización para laboratorios bajo estrictos estándares de bioseguridad."
-                        },
-                        {
-                            "titulo": "Sector Salud y Hospitalario",
-                            "descripcion": "Climatización de salas de operaciones, unidades de cuidados intensivos y centros médicos con sistemas de filtrado de aire de alta eficiencia."
-                        }
-                    ]
-                }
-            ],
-            "VentilacionClimatizacion": {
-                "titulo": "Sectores de Especialización",
-                "img": "https://pub-6fa3794a145e46dc96c10036dd66ad12.r2.dev/Nuestro%20Portafolio%20de%20Servicios.webp",
-                "servicios": [
-                    {
-                        "nombre": "Almacenamiento Térmico",
-                        "descripcion": "Diseño e instalación de cámaras frigoríficas, cámaras de congelación y túneles de congelado rápido.",
-                        "icono": "mdi:fridge-industrial"
-                    },
-                    {
-                        "nombre": "Unidades de Potencia",
-                        "descripcion": "Implementación de sistemas de racks de compresores, unidades condensadoras y sistemas de Chillers.",
-                        "icono": "mdi:engine"
-                    },
-                    {
-                        "nombre": "Componentes Especializados",
-                        "descripcion": "Suministro de paneles aislantes, puertas para cámaras frigoríficas y unidades enfriadoras de aire (evaporadores)",
-                        "icono": "mdi:package-variant-closed"
-                    },
-                    {
-                        "nombre": "Ingeniería de Salas",
-                        "descripcion": "Climatización precisa para salas de procesamiento, garantizando estándares óptimos de higiene y temperatura.",
-                        "icono": "mdi:office-building-cog"
-                    }
-                ]
-            }
+          ],
+          "compromiso": "Convertimos tus ideas en espacios únicos con diseño profesional y tecnología de vanguardia."
         }
-    ]
+      ],
+      "descripcionDetallada": {
+        "titulo": "Diseño y Visualización",
+        "img": "https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg",
+        "servicios": [
+          {
+            "nombre": "Blender y 3D Max",
+            "descripcion": "Modelado 3D profesional para visualización de interiores y exteriores con acabados realistas.",
+            "icono": "mdi:cube-scan"
+          },
+          {
+            "nombre": "Planos y Especificaciones",
+            "descripcion": "Elaboración de planos arquitectónicos, eléctricos y de acabados con especificaciones técnicas detalladas.",
+            "icono": "mdi:drawing"
+          },
+          {
+            "nombre": "Selección de Materiales",
+            "descripcion": "Asesoramiento en acabados, texturas, colores y mobiliario para cada proyecto.",
+            "icono": "mdi:palette-swatch"
+          }
+        ]
+      },
+      "servicios": [
+        {
+          "nombre": "Modelado 3D y Renders",
+          "descripcion": "Visualización fotorrealista con Blender, 3D Max y AutoCAD.",
+          "icono": "mdi:cube-outline"
+        },
+        {
+          "nombre": "Desarrollo de Proyectos",
+          "descripcion": "Planificación integral desde concepto hasta ejecución con gestión de permisos.",
+          "icono": "mdi:file-document-edit"
+        },
+        {
+          "nombre": "Asesoría Especializada",
+          "descripcion": "Consultoría en materiales, mobiliario, iluminación y acabados.",
+          "icono": "mdi:chat-question"
+        }
+      ]
+    },
+    {
+      "img": "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg",
+      "titulo": "Remodelación Integral de Espacios",
+      "contenido": "Renovamos viviendas, oficinas y locales comerciales con proyectos llave en mano.",
+      "url": "/remodelacion",
+      "slug": "remodelacion",
+      "descripcion_larga": "Realizamos remodelación integral de todo tipo de espacios: viviendas, oficinas, locales comerciales, restaurantes y más. Gestionamos el proyecto desde la demolición hasta los acabados finales, incluyendo instalaciones eléctricas, sanitarias, pisos, cielorrasos, carpintería y pintura. Trabajamos con cronogramas definidos y supervisión constante para garantizar entregas puntuales.",
+      "icono": "mdi:home-renovation",
+      "categoria": "remodelacion",
+      "subcategorias": ["viviendas", "oficinas", "comercial", "restaurantes", "hoteles"],
+      "descripcionServicio": [
+        {
+          "titulo": "Remodelación de Viviendas",
+          "img": "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg",
+          "descripcion_corta": "Renovación integral de casas y departamentos con diseño personalizado y acabados de calidad.",
+          "servicios": [
+            {
+              "nombre": "Demolición Controlada",
+              "descripcion": "Eliminación de elementos existentes con protocolos de seguridad y gestión de residuos.",
+              "icono": "mdi:hammer"
+            },
+            {
+              "nombre": "Instalaciones Eléctricas",
+              "descripcion": "Renovación de cableado, tableros, puntos de luz y tomacorrientes según normativa.",
+              "icono": "mdi:lightning-bolt"
+            },
+            {
+              "nombre": "Instalaciones Sanitarias",
+              "descripcion": "Cambio de tuberías, grifería, sanitarios y sistemas de drenaje.",
+              "icono": "mdi:water"
+            },
+            {
+              "nombre": "Acabados y Carpintería",
+              "descripcion": "Pisos, cielorrasos, enchapes, muebles fijos y carpintería a medida.",
+              "icono": "mdi:wood"
+            }
+          ],
+          "compromiso": "Transformamos tu hogar con calidad, limpieza y respeto por los plazos acordados."
+        },
+        {
+          "titulo": "Remodelación de Oficinas",
+          "img": "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg",
+          "descripcion_corta": "Espacios de trabajo funcionales y modernos que mejoran la productividad.",
+          "servicios": [
+            {
+              "nombre": "Diseño de Espacios Laborales",
+              "descripcion": "Distribución ergonómica, zonas de colaboración y áreas de descanso.",
+              "icono": "mdi:office-building"
+            },
+            {
+              "nombre": "Instalaciones Especiales",
+              "descripcion": "Redes de datos, cableado estructurado y sistemas de climatización.",
+              "icono": "mdi:network"
+            },
+            {
+              "nombre": "Mobiliario Corporativo",
+              "descripcion": "Diseño e instalación de mobiliario funcional y estaciones de trabajo.",
+              "icono": "mdi:desk"
+            }
+          ],
+          "compromiso": "Creamos entornos laborales que potencian el talento y la productividad."
+        },
+        {
+          "titulo": "Remodelación Comercial",
+          "img": "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg",
+          "descripcion_corta": "Locales comerciales, tiendas y restaurantes con identidad de marca.",
+          "servicios": [
+            {
+              "nombre": "Imagen de Marca",
+              "descripcion": "Diseño de interiores que refuerza la identidad y experiencia de marca.",
+              "icono": "mdi:store"
+            },
+            {
+              "nombre": "Iluminación Comercial",
+              "descripcion": "Diseño lumínico para destacar productos y crear ambientes atractivos.",
+              "icono": "mdi:lightbulb"
+            },
+            {
+              "nombre": "Señalética y Letreros",
+              "descripcion": "Fabricación e instalación de letreros luminosos y señalética corporativa.",
+              "icono": "mdi:sign-direction"
+            }
+          ],
+          "compromiso": "Potenciamos tu negocio con espacios comerciales que atraen y fidelizan clientes."
+        }
+      ],
+      "descripcionDetallada": {
+        "titulo": "Remodelación Integral",
+        "img": "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg",
+        "servicios": [
+          {
+            "nombre": "Viviendas",
+            "descripcion": "Remodelación de casas, departamentos, baños, cocinas y áreas comunes.",
+            "icono": "mdi:home"
+          },
+          {
+            "nombre": "Oficinas",
+            "descripcion": "Espacios corporativos, coworking, salas de reuniones y áreas administrativas.",
+            "icono": "mdi:office-building"
+          },
+          {
+            "nombre": "Comercial",
+            "descripcion": "Tiendas, restaurantes, cafeterías, locales comerciales y centros comerciales.",
+            "icono": "mdi:store"
+          },
+          {
+            "nombre": "Hoteles y Hospitalidad",
+            "descripcion": "Habitaciones, lobbies, áreas comunes y restaurantes para el sector hotelero.",
+            "icono": "mdi:hotel"
+          }
+        ]
+      },
+      "servicios": [
+        {
+          "nombre": "Demolición Controlada",
+          "descripcion": "Eliminación de elementos con protocolos de seguridad.",
+          "icono": "mdi:hammer"
+        },
+        {
+          "nombre": "Instalaciones Eléctricas y Sanitarias",
+          "descripcion": "Renovación completa de sistemas eléctricos, sanitarios y de gas.",
+          "icono": "mdi:lightning-bolt"
+        },
+        {
+          "nombre": "Acabados y Carpintería",
+          "descripcion": "Pisos, cielorrasos, enchapes, muebles fijos y carpintería.",
+          "icono": "mdi:wood"
+        },
+        {
+          "nombre": "Pintura y Decoración",
+          "descripcion": "Acabados decorativos, texturas y pintura profesional.",
+          "icono": "mdi:format-paint"
+        }
+      ]
+    },
+    {
+      "img": "https://images.pexels.com/photos/159306/construction-site-build-construction-work-159306.jpeg",
+      "titulo": "Construcción Civil y Obra Nueva",
+      "contenido": "Ejecutamos proyectos de construcción desde cimentación hasta acabados finales.",
+      "url": "/construccion-civil",
+      "slug": "construccion-civil",
+      "descripcion_larga": "Desarrollamos proyectos de construcción civil para viviendas, edificios, locales comerciales y naves industriales. Abarcamos desde el movimiento de tierras, cimentación, estructuras de concreto, albañilería, instalaciones eléctricas y sanitarias, hasta acabados finales. Contamos con alianzas estratégicas con empresas especializadas en subcontratos como vidriería, perfilería, pozos a tierra y sistemas contra incendio.",
+      "icono": "mdi:office-building",
+      "categoria": "construccion",
+      "descripcionServicio": [
+        {
+          "titulo": "Obra Civil y Estructuras",
+          "img": "https://images.pexels.com/photos/159306/construction-site-build-construction-work-159306.jpeg",
+          "descripcion_corta": "Construcción desde cimentación hasta estructuras de concreto armado y albañilería.",
+          "servicios": [
+            {
+              "nombre": "Movimiento de Tierras",
+              "descripcion": "Excavaciones, nivelación, rellenos compactados y manejo de residuos.",
+              "icono": "mdi:shovel"
+            },
+            {
+              "nombre": "Cimentación",
+              "descripcion": "Zapatas, losas de cimentación, vigas de cimentación y sobrecimientos.",
+              "icono": "mdi:cube-send"
+            },
+            {
+              "nombre": "Estructuras de Concreto",
+              "descripcion": "Columnas, vigas, losas aligeradas y muros de contención con refuerzo sísmico.",
+              "icono": "mdi:cube-outline"
+            },
+            {
+              "nombre": "Albañilería",
+              "descripcion": "Muros de ladrillo, tabiquería, revoques y acabados de muros.",
+              "icono": "mdi:brick"
+            }
+          ],
+          "compromiso": "Construimos con estándares de calidad y seguridad, garantizando estructuras sólidas y duraderas."
+        }
+      ],
+      "descripcionDetallada": {
+        "titulo": "Construcción Integral",
+        "img": "https://images.pexels.com/photos/159306/construction-site-build-construction-work-159306.jpeg",
+        "servicios": [
+          {
+            "nombre": "Obra Civil",
+            "descripcion": "Movimiento de tierras, cimentación, estructuras de concreto y albañilería.",
+            "icono": "mdi:office-building"
+          },
+          {
+            "nombre": "Instalaciones Eléctricas",
+            "descripcion": "Cableado, tableros, subestaciones, pozos a tierra y sistemas de puesta a tierra.",
+            "icono": "mdi:lightning-bolt"
+          },
+          {
+            "nombre": "Instalaciones Sanitarias",
+            "descripcion": "Redes de agua fría/caliente, desagüe, sistemas de bombeo y tanques elevados.",
+            "icono": "mdi:water"
+          },
+          {
+            "nombre": "Acabados Arquitectónicos",
+            "descripcion": "Pisos, cielorrasos, enchapes, carpintería, pintura y decoración.",
+            "icono": "mdi:wall"
+          }
+        ]
+      },
+      "servicios": [
+        {
+          "nombre": "Obra Civil",
+          "descripcion": "Movimiento de tierras, cimentación, estructuras y albañilería.",
+          "icono": "mdi:office-building"
+        },
+        {
+          "nombre": "Instalaciones Especiales",
+          "descripcion": "Pozos a tierra, sistemas de puesta a tierra y subestaciones eléctricas.",
+          "icono": "mdi:ground"
+        },
+        {
+          "nombre": "Subcontratos Especializados",
+          "descripcion": "Vidriería, perfilería, sistemas contra incendio y climatización.",
+          "icono": "mdi:handshake"
+        },
+        {
+          "nombre": "Gestión de Proyectos",
+          "descripcion": "Coordinación de equipos, control de cronograma y supervisión de calidad.",
+          "icono": "mdi:clipboard-check"
+        }
+      ]
+    },
+    {
+      "img": "https://images.pexels.com/photos/280230/pexels-photo-280230.jpeg",
+      "titulo": "Servicios Especializados",
+      "contenido": "Vidriería, perfilería, pozos a tierra y subcontratos con empresas aliadas.",
+      "url": "/servicios-especializados",
+      "slug": "servicios-especializados",
+      "descripcion_larga": "Contamos con alianzas estratégicas con empresas especializadas para brindar servicios complementarios de alta calidad. Realizamos trabajos de vidriería, perfilería metálica, sistemas de pozos a tierra, instalaciones de gas, sistemas contra incendio y climatización. Nuestros aliados cuentan con amplia experiencia en proyectos para empresas como Fonbiepol, hospitales y centros comerciales.",
+      "icono": "mdi:handshake",
+      "categoria": "especializados",
+      "descripcionServicio": [
+        {
+          "titulo": "Servicios Complementarios",
+          "img": "https://images.pexels.com/photos/280230/pexels-photo-280230.jpeg",
+          "descripcion_corta": "Soluciones especializadas con aliados estratégicos para proyectos integrales.",
+          "servicios": [
+            {
+              "nombre": "Vidriería",
+              "descripcion": "Instalación de vidrios templados, laminados, fachadas flotantes, mamparas y espejos decorativos.",
+              "icono": "mdi:glass-flask"
+            },
+            {
+              "nombre": "Perfilería Metálica",
+              "descripcion": "Estructuras metálicas, carpintería de aluminio, ventanería, fachadas y barandas.",
+              "icono": "mdi:metal"
+            },
+            {
+              "nombre": "Pozos a Tierra",
+              "descripcion": "Instalación de sistemas de puesta a tierra, pararrayos y protecciones eléctricas.",
+              "icono": "mdi:ground"
+            },
+            {
+              "nombre": "Subcontratos Especializados",
+              "descripcion": "Coordinación con aliados en sistemas contra incendio, climatización y automatización.",
+              "icono": "mdi:handshake"
+            }
+          ],
+          "compromiso": "Aseguramos la calidad de cada especialidad mediante alianzas con empresas certificadas."
+        }
+      ],
+      "descripcionDetallada": {
+        "titulo": "Especialidades Técnicas",
+        "img": "https://images.pexels.com/photos/280230/pexels-photo-280230.jpeg",
+        "servicios": [
+          {
+            "nombre": "Vidriería",
+            "descripcion": "Vidrios templados, laminados, fachadas, mamparas y espejos decorativos.",
+            "icono": "mdi:glass-flask"
+          },
+          {
+            "nombre": "Perfilería",
+            "descripcion": "Estructuras metálicas, carpintería de aluminio, ventanería y barandas.",
+            "icono": "mdi:metal"
+          },
+          {
+            "nombre": "Pozos a Tierra",
+            "descripcion": "Sistemas de puesta a tierra, pararrayos y protecciones eléctricas.",
+            "icono": "mdi:ground"
+          }
+        ]
+      },
+      "servicios": [
+        {
+          "nombre": "Vidriería",
+          "descripcion": "Instalación de vidrios templados, laminados y fachadas.",
+          "icono": "mdi:glass-flask"
+        },
+        {
+          "nombre": "Perfilería Metálica",
+          "descripcion": "Estructuras metálicas y carpintería de aluminio.",
+          "icono": "mdi:metal"
+        },
+        {
+          "nombre": "Pozos a Tierra",
+          "descripcion": "Sistemas de puesta a tierra y protecciones eléctricas.",
+          "icono": "mdi:ground"
+        },
+        {
+          "nombre": "Proyectos con Empresas",
+          "descripcion": "Experiencia en proyectos para Fonbiepol, hospitales y centros comerciales.",
+          "icono": "mdi:office-building"
+        }
+      ]
+    },
+    {
+      "img": "https://images.pexels.com/photos/2760242/pexels-photo-2760242.jpeg",
+      "titulo": "Mantenimiento y Servicios Postventa",
+      "contenido": "Aseguramos la durabilidad de tus espacios con mantenimiento preventivo y correctivo.",
+      "url": "/mantenimiento",
+      "slug": "mantenimiento",
+      "descripcion_larga": "Ofrecemos servicios de mantenimiento preventivo y correctivo para todo tipo de espacios: viviendas, oficinas, locales comerciales e industriales. Realizamos inspecciones periódicas, reparaciones eléctricas, sanitarias, de estructuras, pintura, impermeabilización y acabados. Contamos con planes de mantenimiento personalizados que garantizan la durabilidad y el óptimo estado de tus espacios.",
+      "icono": "mdi:tools",
+      "categoria": "mantenimiento",
+      "descripcionServicio": [
+        {
+          "titulo": "Mantenimiento Integral",
+          "img": "https://images.pexels.com/photos/2760242/pexels-photo-2760242.jpeg",
+          "descripcion_corta": "Planes de mantenimiento preventivo y correctivo para espacios comerciales, industriales y residenciales.",
+          "servicios": [
+            {
+              "nombre": "Mantenimiento Eléctrico",
+              "descripcion": "Inspección de tableros, verificación de cableado, pruebas de continuidad y corrección de fallas.",
+              "icono": "mdi:lightning-bolt"
+            },
+            {
+              "nombre": "Mantenimiento Sanitario",
+              "descripcion": "Revisión de tuberías, grifería, sanitarios, bombas de agua y sistemas de drenaje.",
+              "icono": "mdi:water"
+            },
+            {
+              "nombre": "Mantenimiento de Acabados",
+              "descripcion": "Reparación de pisos, cielorrasos, enchapes, pintura y carpintería.",
+              "icono": "mdi:format-paint"
+            },
+            {
+              "nombre": "Mantenimiento Preventivo",
+              "descripcion": "Inspecciones periódicas programadas para prevenir fallas y extender la vida útil.",
+              "icono": "mdi:calendar-check"
+            }
+          ],
+          "compromiso": "Garantizamos la tranquilidad de nuestros clientes con mantenimiento profesional y preventivo."
+        }
+      ],
+      "descripcionDetallada": {
+        "titulo": "Mantenimiento Profesional",
+        "img": "https://images.pexels.com/photos/2760242/pexels-photo-2760242.jpeg",
+        "servicios": [
+          {
+            "nombre": "Preventivo",
+            "descripcion": "Inspecciones programadas para prevenir fallas y asegurar el buen estado de las instalaciones.",
+            "icono": "mdi:calendar-check"
+          },
+          {
+            "nombre": "Correctivo",
+            "descripcion": "Reparación de averías eléctricas, sanitarias, estructurales y de acabados.",
+            "icono": "mdi:wrench"
+          },
+          {
+            "nombre": "Impermeabilización",
+            "descripcion": "Tratamientos para filtraciones en techos, muros y zonas húmedas.",
+            "icono": "mdi:water"
+          }
+        ]
+      },
+      "servicios": [
+        {
+          "nombre": "Mantenimiento Eléctrico",
+          "descripcion": "Inspección de tableros, cableado y corrección de fallas.",
+          "icono": "mdi:lightning-bolt"
+        },
+        {
+          "nombre": "Mantenimiento Sanitario",
+          "descripcion": "Revisión de tuberías, grifería y sistemas de drenaje.",
+          "icono": "mdi:water"
+        },
+        {
+          "nombre": "Mantenimiento de Acabados",
+          "descripcion": "Reparación de pisos, pintura, carpintería y estructuras.",
+          "icono": "mdi:format-paint"
+        },
+        {
+          "nombre": "Planes Personalizados",
+          "descripcion": "Programas de mantenimiento adaptados a cada tipo de espacio.",
+          "icono": "mdi:clipboard-list"
+        }
+      ]
+    }
+  ],
+  "proyectosDestacados": [
+    {
+      "nombre": "Remodelación Fonbiepol",
+      "cliente": "Fonbiepol",
+      "categoria": "comercial",
+      "descripcion": "Remodelación integral de oficinas administrativas con diseño corporativo moderno.",
+      "img": "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg"
+    },
+    {
+      "nombre": "Hospital Santa Rosa",
+      "cliente": "Red de Salud",
+      "categoria": "salud",
+      "descripcion": "Construcción y adecuación de nuevas áreas de emergencia y consultorios.",
+      "img": "https://images.pexels.com/photos/159306/construction-site-build-construction-work-159306.jpeg"
+    },
+    {
+      "nombre": "Centro Comercial Plaza Norte",
+      "cliente": "Inmobiliaria",
+      "categoria": "comercial",
+      "descripcion": "Remodelación de fachadas y áreas comunes con señalética corporativa.",
+      "img": "https://images.pexels.com/photos/280230/pexels-photo-280230.jpeg"
+    }
+  ]
 }

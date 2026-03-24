@@ -10,7 +10,6 @@ export default function Home() {
       <Inicio />
       <Nosotros/>
       <Carrusel/>
-      <Productos/>
       <Contacto/>
     </div>
   );
