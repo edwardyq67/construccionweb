@@ -1,0 +1,21 @@
+{
+  "titulo": "Sobre Nosotros",
+  "contenido": "Somos una empresa líder en el sector de aire acondicionado y ventilación mecánica especializada en instalación, mantenimiento y reparación de sistemas HVAC para el sector comercial, industrial y residencial.",
+  "boton": {
+    "texto": "Conoce Nuestra Historia",
+    "enlace": "/historia"
+  },
+  "foto": "https://pub-6fa3794a145e46dc96c10036dd66ad12.r2.dev/Foto04-casco.webp",
+  "logros": [
+    "Equipo de especialistas certificados",
+    "Tecnología de última generación",
+    "Soporte técnico 24/7",
+    "Certificaciones internacionales",
+    "Proyectos en todo el país"
+  ],
+  "img": "https://pub-6fa3794a145e46dc96c10036dd66ad12.r2.dev/Foto04-casco.webp",
+  "sello": {
+    "numero": "",
+    "texto": ""
+  }
+}
