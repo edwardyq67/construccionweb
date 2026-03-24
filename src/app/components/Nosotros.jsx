@@ -88,28 +88,46 @@ const Nosotros = () => {
 
     return (
         <section className="relative py-24 overflow-hidden bg-gradient-to-b from-background to-muted/20">
+            {/* Imagen de fondo lateral izquierda */}
+            <div className="absolute left-0 top-0 bottom-0 w-1/3 hidden lg:block pointer-events-none">
+                <img
+                    src="https://pub-6fa3794a145e46dc96c10036dd66ad12.r2.dev/productos/puntos_fondos-removebg-preview.png"
+                    alt="Fondo decorativo"
+                    className="w-full h-full object-contain object-left opacity-20"
+                />
+            </div>
+
+            {/* Versión móvil - imagen más pequeña */}
+            <div className="absolute left-0 top-0 bottom-0 w-1/2 lg:hidden pointer-events-none">
+                <img
+                    src="https://pub-6fa3794a145e46dc96c10036dd66ad12.r2.dev/productos/puntos_fondos-removebg-preview.png"
+                    alt="Fondo decorativo"
+                    className="w-full h-full object-contain object-left opacity-10"
+                />
+            </div>
+
             {/* Figuras Geométricas de Fondo */}
             <div className="absolute inset-0 overflow-hidden pointer-events-none">
                 {/* Círculos */}
-                <div className="absolute top-20 left-10 w-32 h-32 rounded-full  border-2 border-primary-50 animate-pulse" />
+                <div className="absolute top-20 left-10 w-32 h-32 rounded-full border-2 border-primary/30 animate-pulse" />
                 <div className="absolute top-40 right-20 w-48 h-48 rounded-full bg-primary/15 animate-pulse delay-1000" />
-                <div className="absolute bottom-32 left-1/4 w-64 h-64 rounded-full  border-2 border-primary-50 animate-pulse delay-500" />
+                <div className="absolute bottom-32 left-1/4 w-64 h-64 rounded-full border-2 border-primary/30 animate-pulse delay-500" />
                 <div className="absolute -top-20 -right-20 w-80 h-80 rounded-full bg-primary/30 animate-pulse" />
-                <div className="absolute bottom-10 right-10 w-40 h-40 rounded-full  border-2 border-primary-50 animate-pulse delay-700" />
+                <div className="absolute bottom-10 right-10 w-40 h-40 rounded-full border-2 border-primary/30 animate-pulse delay-700" />
 
                 {/* Cuadrados */}
-                <div className="absolute top-1/3 left-5 w-20 h-20  border-2 border-primary-50 rotate-12 animate-float" style={{ animation: 'float 6s ease-in-out infinite' }} />
-                <div className="absolute bottom-1/4 right-8 w-16 h-16  border-2 border-primary-50 -rotate-12 animate-float-delay" style={{ animation: 'float 8s ease-in-out infinite' }} />
-                <div className="absolute top-2/3 right-1/3 w-24 h-24  border-2 border-primary-50 rotate-45 animate-float" style={{ animation: 'float 7s ease-in-out infinite' }} />
+                <div className="absolute top-1/3 left-5 w-20 h-20 border-2 border-primary/30 rotate-12 animate-float" style={{ animation: 'float 6s ease-in-out infinite' }} />
+                <div className="absolute bottom-1/4 right-8 w-16 h-16 border-2 border-primary/30 -rotate-12 animate-float-delay" style={{ animation: 'float 8s ease-in-out infinite' }} />
+                <div className="absolute top-2/3 right-1/3 w-24 h-24 border-2 border-primary/30 rotate-45 animate-float" style={{ animation: 'float 7s ease-in-out infinite' }} />
 
                 {/* Rectángulos */}
-                <div className="absolute top-10 right-1/4 w-32 h-16  border-2 border-primary-50 rounded-lg rotate-6 animate-float" style={{ animation: 'float 5s ease-in-out infinite' }} />
-                <div className="absolute bottom-20 left-10 w-40 h-20  border-2 border-primary-50 rounded-lg -rotate-12 animate-float-delay" style={{ animation: 'float 9s ease-in-out infinite' }} />
-                <div className="absolute top-1/2 left-1/2 w-48 h-24  border-2 border-primary-50 rounded-lg rotate-12 animate-float" style={{ animation: 'float 10s ease-in-out infinite' }} />
+                <div className="absolute top-10 right-1/4 w-32 h-16 border-2 border-primary/30 rounded-lg rotate-6 animate-float" style={{ animation: 'float 5s ease-in-out infinite' }} />
+                <div className="absolute bottom-20 left-10 w-40 h-20 border-2 border-primary/30 rounded-lg -rotate-12 animate-float-delay" style={{ animation: 'float 9s ease-in-out infinite' }} />
+                <div className="absolute top-1/2 left-1/2 w-48 h-24 border-2 border-primary/30 rounded-lg rotate-12 animate-float" style={{ animation: 'float 10s ease-in-out infinite' }} />
 
                 {/* Hexágonos */}
-                <div className="absolute top-60 right-40 w-28 h-28  border-2 border-primary-50 clip-hexagon animate-spin-slow" />
-                <div className="absolute bottom-40 left-20 w-36 h-36  border-2 border-primary-50 clip-hexagon animate-spin-slow-reverse" />
+                <div className="absolute top-60 right-40 w-28 h-28 border-2 border-primary/30 clip-hexagon animate-spin-slow" />
+                <div className="absolute bottom-40 left-20 w-36 h-36 border-2 border-primary/30 clip-hexagon animate-spin-slow-reverse" />
 
                 {/* Líneas decorativas */}
                 <svg className="absolute top-0 left-0 w-full h-full" style={{ opacity: 0.6 }}>
@@ -236,7 +254,7 @@ const Nosotros = () => {
                             <div className="relative bg-card/80 backdrop-blur-sm rounded-2xl p-8 border border-border hover:border-primary/30 transition-all duration-300 group overflow-hidden">
                                 <div className="absolute -top-10 -right-10 w-32 h-32 rounded-full bg-primary/5 animate-pulse" />
                                 <div className="flex items-center gap-3 mb-4 relative z-10">
-                                    <div className="p-3 bg-primary/10 rounded-full group-hover:border border-2 border-primary-50 transition-colors">
+                                    <div className="p-3 bg-primary/10 rounded-full group-hover:border border-2 border-primary/30 transition-colors">
                                         <FaBullseye className="text-2xl text-primary" />
                                     </div>
                                     <h3 className="text-2xl font-bold text-foreground">{datosNosotros.mision.titulo}</h3>
@@ -251,7 +269,7 @@ const Nosotros = () => {
                             <div className="relative bg-card/80 backdrop-blur-sm rounded-2xl p-8 border border-border hover:border-primary/30 transition-all duration-300 group overflow-hidden">
                                 <div className="absolute -bottom-10 -left-10 w-32 h-32 rounded-full bg-primary/5 animate-pulse" />
                                 <div className="flex items-center gap-3 mb-4 relative z-10">
-                                    <div className="p-3 bg-primary/10 rounded-full group-hover:border border-2 border-primary-50 transition-colors">
+                                    <div className="p-3 bg-primary/10 rounded-full group-hover:border border-2 border-primary/30 transition-colors">
                                         <FaEye className="text-2xl text-primary" />
                                     </div>
                                     <h3 className="text-2xl font-bold text-foreground">{datosNosotros.vision.titulo}</h3>
